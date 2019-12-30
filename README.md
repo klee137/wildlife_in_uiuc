@@ -18,7 +18,12 @@ Collaborator: sbseo(klee137) <br />
 <hr />
 9. Now, visit Github website and ask for pull request!
   
-## Tips
+## Conclusion
+- Our main work is saved in master branch.
+- When we add a new function, we make a new branch.
+- We finalize the new function by merging it to master branch.
+
+## 
 #### Q. I want to deny collaborator's pull request.
 A. Simply deny merge pull request. We can leave comments to our collaborators!
 
