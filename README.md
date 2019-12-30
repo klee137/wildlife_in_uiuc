@@ -20,7 +20,7 @@ Collaborator: sbseo(klee137) <br />
   
 ## Tips
 #### Q. I want to deny collaborator's pull request.
-A. Simply deny merge pull request. We can leave comments to our collaborators.
+A. Simply deny merge pull request. We can leave comments to our collaborators!
 
 #### Q. I don't want to directly pull one's branch. 
 A. pull = fetch + merge <br />
