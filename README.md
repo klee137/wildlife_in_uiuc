@@ -4,7 +4,7 @@ Our team is a group of motivated individuals to facilitate wildlife identificati
 ## Github Procedure
 Manager: klee137(sbseo) <br />
 Collaborator: sbseo(klee137) <br />
-1. Visit github website and __merge pull request__ to __master branch__.
+1. Visit github website and check there is a pull request. If exists, press __merge pull request__ to __master branch__.
 <hr />
 2. git checkout master<br />
 3. git pull origin master <br />
