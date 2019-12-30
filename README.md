@@ -23,11 +23,11 @@ Collaborator: sbseo(klee137) <br />
 - When we add a new function, we make a new branch.
 - We finalize the new function by merging it to master branch.
 
-## 
+## FAQ
 #### Q. I want to deny collaborator's pull request.
 A. Simply deny merge pull request. We can leave comments to our collaborators!
 
-#### Q. I don't want to directly pull one's branch. 
+#### Q. I don't want to directly pull one's branch! 
 A. pull = fetch + merge <br />
 Therefore, do fetch first and then merge <br />
 We can always check the changes in Github website. 
