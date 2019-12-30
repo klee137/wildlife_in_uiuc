@@ -8,12 +8,12 @@ Collaborator: sbseo(klee137) <br />
 <hr />
 2. git checkout master<br />
 3. git pull origin master <br />
-4. *(optional)* git branch addImage => Let's make a new branch for a new task <br /> 
+4. __(optional)__ git branch addImage => Let's make a new branch for a new task <br /> 
 5. git checkout addImage
 <hr />
 6. do your coding... 
 <hr />
-7. *(optional)* git add .  => add it when you add a new file<br /> 
+7. __(optional)__ git add .  => add it when you add a new file<br /> 
 8. git push origin addImage
 <hr />
 9. Now, visit Github website and ask for pull request!
