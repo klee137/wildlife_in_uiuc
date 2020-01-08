@@ -108,8 +108,11 @@ class Net(nn.Module):
                                            nn.MaxPool2d(3, stride=2),
                                            Flatten(),
                                            nn.Linear(1920, 1000),
+                                           nn.Dropout(p=0.2),
                                            nn.Linear(1000, 200),
-                                           nn.Linear(200, 53),
+                                           nn.Dropout(p=0.2),
+                                           nn.Linear(200, 54),
+                                           nn.Dropout(p=0.2),
                                            nn.Softmax(dim=1))
     def forward(self, x):
         x = self.effnet_stage1(x)
