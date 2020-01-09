@@ -5,7 +5,7 @@ import torch.optim as optim
 
 class EffNetB0(nn.Module):
     def __init__(self):
-        super(Net, self).__init__()
+        super(EffNetB0, self).__init__()
         self.effnet_stage1 = nn.Conv2d(1, 32, 3, padding=1, stride=2) # in channel x out channel x kernel size 
         
         self.effnet_stage2 = nn.Sequential(nn.Conv2d(32, 32*1, 1),
