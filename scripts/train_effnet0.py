@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-
+from model import EffNetB0
 
 def getOptions(args=sys.argv[1:]):
     """Parse the command arguments into appropriate variables.
