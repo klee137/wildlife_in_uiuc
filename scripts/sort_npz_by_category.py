@@ -20,6 +20,13 @@ def getOptions(args=sys.argv[1:]):
     options = parser.parse_args(args)
     return options
 
+def numerical_sort(list_str):
+    """Sort string that contains numerical values numerically."""
+    list_str = np.array(list_str)
+    nums = [int(list_str[i].split('_')[-1][:-4]) for i in range(len(list_str))]
+    list_str = list_str[np.argsort(np.array(nums))]
+    return list_str
+
 
 def main():
     options = getOptions(sys.argv[1:])
@@ -36,9 +43,9 @@ def main():
         curr_x = x[:, :, label==labels] 
 
         file_index = 0 
+        flist = numerical_sort(glob1(options.saveDir, 'label'+str(label)+'_*.npz'))
 
-        flist = sorted(glob1(options.saveDir, 'label'+str(label)+'_*.npz'))
-        if flist:
+        if len(flist) > 0:
             file_index = int(flist[-1].split('_')[-1][:-4])
             prev_f = np.load(options.saveDir+'/'+flist[-1])
             prev_x = prev_f['x']
